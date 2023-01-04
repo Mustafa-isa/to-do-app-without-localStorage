@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+font: 20px
+}
+body{
+    background: rgba( 104, 12, 127, 1 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+color: #fff;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    width: 100%;
+    padding-top: 30px;
+    text-align: center;
+    text-transform: capitalize;
+margin-bottom: 40px;
+
+    
+}
+.task{
+    width: 70%;
+    margin-right:auto;
+    margin-left:auto;
+    padding: 20px 35px;
+    background: rgba( 194, 190, 190, 1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-bottom: 5px #FFF solid;
+margin-bottom: 40px;
+height: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+overflow:auto;
+}
+.icon{
+    font-size: 26px;
+    transition: .3s ease;
+}
+p{
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.icon:hover{
+    font-size: 28px;
+}
+.icon-star-empty:hover{
+    color: orange;
+}
+.icon-angry2{
+    color: rgb(220, 140, 19);
+}
+.icon-box-remove:hover {
+    color: rgb(47, 44, 44);
+}
+form{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+input {
+    width: 50%;
+    padding: 15px 10px;
+    border-radius: 10px;
+}
+button{
+    margin-left: 10px;
+    display: inline-block;
+    width: 60px;
+    height: 40px;
+    border-radius: 5px;
+    transition: .3s ease;
+}
+button:hover{
+    transform: scale(1.2);
+    background: rgb(131, 129, 1);
+
+}
+.icon-heart{
+    color: red;
+    font-size: 26px;
+    transition: .3s ease;
+}
+.icon-hear:hover{
+font-size: 29px;
+}
+.nn{
+    text-decoration-line: line-through;
+}
+.orange{
+    color: orange;
+}
